@@ -11,6 +11,7 @@ var paths = {
 };
 
 gulp.task('debug', function () {
+    return gulp.src(paths.src);
 });
 
 gulp.task('release', function () {
